@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Search, ShoppingBag } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent } from "@/components/ui/card";
+import Link from "next/link";
 
 export const Homepage = () => {
   return (
@@ -45,19 +46,21 @@ export const Homepage = () => {
           </Card>
 
           <Card className="relative overflow-hidden group cursor-pointer">
-            <div className="aspect-[4/5] relative">
-              <Image
-                src="/placeholder.svg?height=600&width=480"
-                alt="Moda para hombre"
-                fill
-                className="object-cover transition-transform group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
-                <h3 className="text-white text-2xl font-bold tracking-wider">
-                  MODA PARA HOMBRE
-                </h3>
+            <Link href="/hombre">
+              <div className="aspect-[4/5] relative">
+                <Image
+                  src="https://acdn-us.mitiendanube.com/stores/002/855/768/products/o7uibbkyfpwztm6yqnm-7fc346744d6e4a483a17418779671263-480-0.jpg"
+                  alt="Moda para hombre"
+                  fill
+                  className="object-cover transition-transform group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
+                  <h3 className="text-white text-2xl font-bold tracking-wider">
+                    MODA PARA HOMBRE
+                  </h3>
+                </div>
               </div>
-            </div>
+            </Link>
           </Card>
         </div>
 
