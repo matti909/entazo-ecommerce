@@ -1,7 +1,8 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { Heart } from "lucide-react";
+import productos from "../../productos.json";
 
 type Producto = {
   id: number;
@@ -11,20 +12,11 @@ type Producto = {
   imagen: string;
 };
 
-async function getProductos(): Promise<Producto[]> {
-  const res = await fetch("/api/products/", {
-    cache: "no-store",
-  });
-  return res.json();
-}
-
 const manPage = async () => {
-  const productos = await getProductos();
-
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-        {productos.map((producto) => (
+        {productos.map((producto: Producto) => (
           <Card
             key={producto.id}
             className="group cursor-pointer border-0 shadow-none hover:shadow-lg transition-all duration-300 bg-white"
