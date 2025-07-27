@@ -1,5 +1,5 @@
-import FarfetchHomepage from "../farfetch-homepage"
+import { Homepage } from "@/homepage";
 
 export default function Page() {
-  return <FarfetchHomepage />
+  return <Homepage />;
 }

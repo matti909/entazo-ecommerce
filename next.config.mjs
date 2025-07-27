@@ -8,7 +8,8 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    domains: ["acdn-us.mitiendanube.com"],
   },
-}
+};
 
-export default nextConfig
+export default nextConfig;

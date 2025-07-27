@@ -1,57 +1,11 @@
-import Image from "next/image"
-import { Search, User, Heart, ShoppingBag, Globe, ChevronDown } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Card, CardContent } from "@/components/ui/card"
+import Image from "next/image";
+import { Search, ShoppingBag } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { Card, CardContent } from "@/components/ui/card";
 
-export default function FarfetchHomepage() {
+export const Homepage = () => {
   return (
     <div className="min-h-screen bg-white">
-      {/* Top Banner */}
-      <div className="bg-black text-white text-center py-2 text-sm">Ingresa y compra en las rebajas</div>
-
-      {/* Header */}
-      <header className="border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            {/* Navigation */}
-            <nav className="hidden md:flex space-x-8">
-              <a href="#" className="text-gray-900 hover:text-gray-600 font-medium">
-                Moda para mujer
-              </a>
-              <a href="#" className="text-gray-900 hover:text-gray-600 font-medium">
-                Moda para hombre
-              </a>
-              <a href="#" className="text-gray-900 hover:text-gray-600 font-medium">
-                Moda infantil
-              </a>
-            </nav>
-
-            {/* Logo */}
-            <div className="flex-1 flex justify-center md:justify-start md:flex-none">
-              <h1 className="text-2xl font-bold tracking-wider">FARFETCH</h1>
-            </div>
-
-            {/* Right Icons */}
-            <div className="flex items-center space-x-4">
-              <Button variant="ghost" size="sm" className="hidden sm:flex">
-                <Globe className="h-5 w-5" />
-                <ChevronDown className="h-4 w-4 ml-1" />
-              </Button>
-              <Button variant="ghost" size="sm">
-                <User className="h-5 w-5" />
-              </Button>
-              <Button variant="ghost" size="sm">
-                <Heart className="h-5 w-5" />
-              </Button>
-              <Button variant="ghost" size="sm">
-                <ShoppingBag className="h-5 w-5" />
-              </Button>
-            </div>
-          </div>
-        </div>
-      </header>
-
       {/* Search Bar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="max-w-md mx-auto">
@@ -68,10 +22,12 @@ export default function FarfetchHomepage() {
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <h2 className="text-3xl font-medium text-center mb-12">Elige una opción</h2>
+        <h2 className="text-3xl font-medium text-center mb-12">
+          Elige una opción
+        </h2>
 
         {/* Category Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
           <Card className="relative overflow-hidden group cursor-pointer">
             <div className="aspect-[4/5] relative">
               <Image
@@ -81,7 +37,9 @@ export default function FarfetchHomepage() {
                 className="object-cover transition-transform group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
-                <h3 className="text-white text-2xl font-bold tracking-wider">MODA PARA MUJER</h3>
+                <h3 className="text-white text-2xl font-bold tracking-wider">
+                  MODA PARA MUJER
+                </h3>
               </div>
             </div>
           </Card>
@@ -95,21 +53,9 @@ export default function FarfetchHomepage() {
                 className="object-cover transition-transform group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
-                <h3 className="text-white text-2xl font-bold tracking-wider">MODA PARA HOMBRE</h3>
-              </div>
-            </div>
-          </Card>
-
-          <Card className="relative overflow-hidden group cursor-pointer">
-            <div className="aspect-[4/5] relative">
-              <Image
-                src="/placeholder.svg?height=600&width=480"
-                alt="Moda infantil"
-                fill
-                className="object-cover transition-transform group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
-                <h3 className="text-white text-2xl font-bold tracking-wider">MODA INFANTIL</h3>
+                <h3 className="text-white text-2xl font-bold tracking-wider">
+                  MODA PARA HOMBRE
+                </h3>
               </div>
             </div>
           </Card>
@@ -123,7 +69,9 @@ export default function FarfetchHomepage() {
                 <div className="w-8 h-8 bg-black rounded-full flex items-center justify-center mr-3">
                   <ShoppingBag className="h-4 w-4 text-white" />
                 </div>
-                <h3 className="text-lg font-semibold">CÓMO REALIZAR UNA COMPRA</h3>
+                <h3 className="text-lg font-semibold">
+                  CÓMO REALIZAR UNA COMPRA
+                </h3>
               </div>
               <p className="text-gray-600">Tu guía para hacer pedidos</p>
             </CardContent>
@@ -153,11 +101,13 @@ export default function FarfetchHomepage() {
                 </div>
                 <h3 className="text-lg font-semibold">¿NECESITAS AYUDA?</h3>
               </div>
-              <p className="text-gray-600">Contacta a nuestro equipo de Atención al Cliente</p>
+              <p className="text-gray-600">
+                Contacta a nuestro equipo de Atención al Cliente
+              </p>
             </CardContent>
           </Card>
         </div>
       </main>
     </div>
-  )
-}
+  );
+};
