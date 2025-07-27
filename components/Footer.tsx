@@ -172,38 +172,6 @@ export const Footer = () => {
                     Programa de Lealtad
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-sm text-gray-600 hover:text-gray-900"
-                  >
-                    Descuento para estudiantes UNiDAYS
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-sm text-gray-600 hover:text-gray-900 underline"
-                  >
-                    Student Beans y Graduados
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-sm text-gray-600 hover:text-gray-900"
-                  >
-                    Descuento para estudiantes y jóvenes
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-sm text-gray-600 hover:text-gray-900"
-                  >
-                    Dona y ahorra
-                  </a>
-                </li>
               </ul>
             </div>
           </div>
@@ -241,28 +209,6 @@ export const Footer = () => {
                   <path d="M12.017 0C18.624 0 24.017 5.384 24.017 12.017c0 6.624-5.384 12.017-12.017 12.017S-.017 18.641-.017 12.017C-.017 5.384 5.384-.017 12.017-.017zm5.568 8.912c-.054-.298-.216-.558-.432-.734-.216-.176-.486-.27-.756-.27-.27 0-.54.094-.756.27-.216.176-.378.436-.432.734l-.648 3.888c-.054.324-.162.648-.324.918-.162.27-.378.486-.648.648-.27.162-.594.243-.918.243s-.648-.081-.918-.243c-.27-.162-.486-.378-.648-.648-.162-.27-.27-.594-.324-.918l-.648-3.888c-.054-.298-.216-.558-.432-.734-.216-.176-.486-.27-.756-.27-.27 0-.54.094-.756.27-.216.176-.378.436-.432.734l-.648 3.888c-.054.324-.162.648-.324.918-.162.27-.378.486-.648.648-.27.162-.594.243-.918.243s-.648-.081-.918-.243c-.27-.162-.486-.378-.648-.648-.162-.27-.27-.594-.324-.918l-.648-3.888c-.054-.298-.216-.558-.432-.734-.216-.176-.486-.27-.756-.27-.27 0-.54.094-.756.27-.216.176-.378.436-.432.734l-.648 3.888c-.054.324-.162.648-.324.918-.162.27-.378.486-.648.648-.27.162-.594.243-.918.243s-.648-.081-.918-.243c-.27-.162-.486-.378-.648-.648-.162-.27-.27-.594-.324-.918l-.648-3.888c-.054-.298-.216-.558-.432-.734-.216-.176-.486-.27-.756-.27-.27 0-.54.094-.756.27-.216.176-.378.436-.432.734l-.648 3.888c-.054.324-.162.648-.324.918-.162.27-.378.486-.648.648-.27.162-.594.243-.918.243s-.648-.081-.918-.243c-.27-.162-.486-.378-.648-.648-.162-.27-.27-.594-.324-.918l-.648-3.888z" />
                 </svg>
               </a>
-            </div>
-          </div>
-
-          {/* App Download Section */}
-          <div className="mt-8 flex space-x-4">
-            <div className="flex items-center space-x-2 bg-black text-white px-4 py-2 rounded-lg">
-              <div className="w-6 h-6 bg-white rounded flex items-center justify-center">
-                <span className="text-black text-xs">📱</span>
-              </div>
-              <div>
-                <div className="text-xs">Disponible en</div>
-                <div className="text-sm font-semibold">App Store</div>
-              </div>
-            </div>
-            <div className="flex items-center space-x-2 bg-black text-white px-4 py-2 rounded-lg">
-              <div className="w-6 h-6 bg-white rounded flex items-center justify-center">
-                <span className="text-black text-xs">▶</span>
-              </div>
-              <div>
-                <div className="text-xs">Consíguelo en</div>
-                <div className="text-sm font-semibold">Google Play</div>
-              </div>
             </div>
           </div>
         </div>
