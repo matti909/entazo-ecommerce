@@ -1,5 +1,5 @@
-import { Homepage } from "@/homepage";
+import MaintenancePage from "@/components/features/Maintenance";
 
 export default function Page() {
-  return <Homepage />;
+  return <MaintenancePage />;
 }
