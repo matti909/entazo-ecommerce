@@ -1,8 +1,11 @@
+"use client";
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { Heart } from "lucide-react";
 import productos from "../../productos.json";
+import { useCart } from "@/store/cart.store";
 
 type Producto = {
   id: number;
@@ -13,6 +16,8 @@ type Producto = {
 };
 
 const manPage = async () => {
+  const addCart = useCart((state) => state.addCart);
+
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -65,6 +70,15 @@ const manPage = async () => {
                   <Button
                     className="w-full bg-black text-white text-sm py-2"
                     size="sm"
+                    onClick={() =>
+                      addCart({
+                        id: producto.id,
+                        title: producto.titulo,
+                        price: producto.precio,
+                        quantity: 1,
+                        image: producto.imagen,
+                      })
+                    }
                   >
                     Agregar al carrito
                   </Button>

@@ -41,7 +41,9 @@ export const HeaderLayout = () => {
               <Heart className="h-5 w-5" />
             </Button>
             <Button variant="ghost" size="sm">
-              <ShoppingBag className="h-5 w-5" />
+              <Link href="/cart">
+                <ShoppingBag className="h-5 w-5" />
+              </Link>
             </Button>
           </div>
         </div>
