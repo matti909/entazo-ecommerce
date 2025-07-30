@@ -9,7 +9,7 @@ import { useCart } from "@/store/cart.store";
 import { toast } from "sonner";
 import { useState } from "react";
 
-type Producto = {
+export type Producto = {
   id: number;
   titulo: string;
   descripcion: string;

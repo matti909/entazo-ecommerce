@@ -15,6 +15,7 @@ import { Badge } from "@/components/ui/badge";
 
 import { useShallow } from "zustand/shallow";
 import { useCart } from "@/store/cart.store";
+import { Producto } from "@/app/hombre/page";
 
 export const CartComponent = () => {
   const { count, cart, addCart, removeCart } = useCart(
@@ -23,13 +24,17 @@ export const CartComponent = () => {
       cart: state.cart,
       addCart: state.addCart,
       removeCart: state.removeCart,
-    }))
+    })),
   );
+
+  const handleRemove = (id: number) => {
+    removeCart(id);
+  };
 
   const totalItems = count;
   const totalPrice = cart.reduce(
     (sum, item) => sum + item.price * item.quantity,
-    0
+    0,
   );
 
   return (
@@ -54,7 +59,9 @@ export const CartComponent = () => {
                   {/* Product Image */}
                   <div className="flex-shrink-0">
                     <Image
-                      src={item.image || "/placeholder.svg?height=200&width=150"}
+                      src={
+                        item.image || "/placeholder.svg?height=200&width=150"
+                      }
                       alt={item.title}
                       width={150}
                       height={200}
@@ -71,7 +78,12 @@ export const CartComponent = () => {
                           ID de ENTAZO: {item.id}
                         </p>
                       </div>
-                      <Button variant="ghost" size="sm" className="p-1">
+                      <Button
+                        variant="ghost"
+                        size="sm"
+                        className="p-1"
+                        onClick={() => handleRemove(item.id)}
+                      >
                         <X className="w-4 h-4" />
                       </Button>
                     </div>
@@ -98,7 +110,7 @@ export const CartComponent = () => {
                           Talla
                         </label>
                         <div className="flex items-center gap-2">
-                          <span className="font-medium">{item.size || "-"}</span>
+                          <span className="font-medium">{"-"}</span>
                           <Button
                             variant="link"
                             className="p-0 h-auto text-sm underline"
@@ -156,14 +168,6 @@ export const CartComponent = () => {
                   <span>Entrega</span>
                   <span>$24.00</span>
                 </div>
-                <div className="flex justify-between text-green-600">
-                  <span>Rebajas</span>
-                  <span>-$373.50</span>
-                </div>
-                <div className="flex justify-between text-green-600">
-                  <span>Promoción</span>
-                  <span>-$298.80</span>
-                </div>
                 <hr className="my-4" />
                 <div className="flex justify-between font-semibold text-lg">
                   <span>Total</span>
@@ -201,4 +205,3 @@ export const CartComponent = () => {
     </div>
   );
 };
-
