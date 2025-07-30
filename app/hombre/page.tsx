@@ -15,8 +15,9 @@ type Producto = {
   imagen: string;
 };
 
-const manPage = async () => {
+const manPage = () => {
   const addCart = useCart((state) => state.addCart);
+  const cart = useCart((state) => state.cart);
 
   return (
     <div className="container mx-auto px-4 py-8">
