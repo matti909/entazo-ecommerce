@@ -6,6 +6,8 @@ import Image from "next/image";
 import { Heart } from "lucide-react";
 import productos from "../../productos.json";
 import { useCart } from "@/store/cart.store";
+import { toast } from "sonner";
+import { useState } from "react";
 
 type Producto = {
   id: number;
@@ -18,6 +20,30 @@ type Producto = {
 const manPage = () => {
   const addCart = useCart((state) => state.addCart);
   const cart = useCart((state) => state.cart);
+
+  const [clicked, setClicked] = useState(false);
+
+  const handleClick = (producto: Producto) => {
+    addCart({
+      id: producto.id,
+      title: producto.titulo,
+      price: producto.precio,
+      quantity: 1,
+      image: producto.imagen,
+    });
+
+    toast("Se agregó un producto al carrito", {
+      description: "Producto Agregado",
+      action: {
+        label: "compras",
+        onClick: () => console.log("compras"),
+      },
+    });
+
+    // Activar animación
+    setClicked(true);
+    setTimeout(() => setClicked(false), 300); // duración de la animación
+  };
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -71,15 +97,7 @@ const manPage = () => {
                   <Button
                     className="w-full bg-black text-white text-sm py-2"
                     size="sm"
-                    onClick={() =>
-                      addCart({
-                        id: producto.id,
-                        title: producto.titulo,
-                        price: producto.precio,
-                        quantity: 1,
-                        image: producto.imagen,
-                      })
-                    }
+                    onClick={() => handleClick(producto)}
                   >
                     Agregar al carrito
                   </Button>
