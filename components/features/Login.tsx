@@ -17,6 +17,7 @@ import {
 } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Eye, EyeOff } from "lucide-react";
+import { login } from "@/app/actions/auth";
 
 export const LoginComponent = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -25,6 +26,7 @@ export const LoginComponent = () => {
 
   const handleGoogleAuth = () => {
     // Aquí implementarías la lógica de autenticación con Google
+    login();
     console.log("Autenticación con Google");
   };
 
