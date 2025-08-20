@@ -1,156 +1,310 @@
 [
     {
-    	"id": 0,
+        "id": 0,
         "titulo": "Producto 1",
         "descripcion": "Descripción del producto 1",
         "precio": 120,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/diseno-sin-titulo-dffe05e5b9a5cad60a17467487140239-240-0.png"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/diseno-sin-titulo-dffe05e5b9a5cad60a17467487140239-240-0.png",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 1,
+        "id": 1,
         "titulo": "Producto 2",
         "descripcion": "Descripción del producto 2",
         "precio": 240,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/opvys12dw1s0khebngv-5e0dbe9f1ac44f1aae17467487136009-240-0.jpg"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/opvys12dw1s0khebngv-5e0dbe9f1ac44f1aae17467487136009-240-0.jpg",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 2,
+        "id": 2,
         "titulo": "Producto 3",
         "descripcion": "Descripción del producto 3",
         "precio": 300,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/4-90c3e0d6cad807595d17455245624918-240-0.png"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/4-90c3e0d6cad807595d17455245624918-240-0.png",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 3,
+        "id": 3,
         "titulo": "Producto 4",
         "descripcion": "Descripción del producto 4",
         "precio": 100,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/omwbza8d0_dcshkqthr-3fd6d6fb813075700917441413402016-240-0.jpg"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/omwbza8d0_dcshkqthr-3fd6d6fb813075700917441413402016-240-0.jpg",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 4,
+        "id": 4,
         "titulo": "Producto 5",
         "descripcion": "Descripción del producto 5",
         "precio": 115,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/5-ce90cba4d09591ba8a17455243909125-240-0.png"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/5-ce90cba4d09591ba8a17455243909125-240-0.png",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 5,
+        "id": 5,
         "titulo": "Producto 6",
         "descripcion": "Descripción del producto 6",
         "precio": 130,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/omrctoc5rb3gpck8dn0-b0d95c72065ee2345d17431901070913-240-0.jpg"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/omrctoc5rb3gpck8dn0-b0d95c72065ee2345d17431901070913-240-0.jpg",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 6,
+        "id": 6,
         "titulo": "Producto 7",
         "descripcion": "Descripción del producto 7",
         "precio": 230,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/diseno-sin-titulo-164738229b876a4d7c17462359948839-240-0.png"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/diseno-sin-titulo-164738229b876a4d7c17462359948839-240-0.png",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 7,
+        "id": 7,
         "titulo": "Producto 8",
         "descripcion": "Descripción del producto 8",
         "precio": 110,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/nswpderkri50uhfkxgb-8c088d58d023ccc93417462359949793-240-0.jpg"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/nswpderkri50uhfkxgb-8c088d58d023ccc93417462359949793-240-0.jpg",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 8,
+        "id": 8,
         "titulo": "Producto 9",
         "descripcion": "Descripción del producto 9",
         "precio": 210,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/3-9c576c8d81350594bb17455244349162-240-0.png"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/3-9c576c8d81350594bb17455244349162-240-0.png",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 9,
+        "id": 9,
         "titulo": "Producto 10",
         "descripcion": "Descripción del producto 10",
         "precio": 200,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/npwzwyxu-wblyj0aqsz-29b677a3ca37cce64917418042531105-240-0.jpg"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/npwzwyxu-wblyj0aqsz-29b677a3ca37cce64917418042531105-240-0.jpg",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 10,
+        "id": 10,
         "titulo": "Producto 11",
         "descripcion": "Descripción del producto 11",
         "precio": 220,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/diseno-sin-titulo-c7407fef9af318ecac17474080452520-240-0.png"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/diseno-sin-titulo-c7407fef9af318ecac17474080452520-240-0.png",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 11,
+        "id": 11,
         "titulo": "Producto 12",
         "descripcion": "Descripción del producto 12",
         "precio": 320,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/nyta__bgaui_bsepxlf-b89ae30eeed8b8054217474080447289-240-0.jpg"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/nyta__bgaui_bsepxlf-b89ae30eeed8b8054217474080447289-240-0.jpg",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 12,
+        "id": 12,
         "titulo": "Producto 13",
         "descripcion": "Descripción del producto 13",
         "precio": 420,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/2-5f75c8ae1d8b08d06d17455244713008-240-0.png"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/2-5f75c8ae1d8b08d06d17455244713008-240-0.png",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 13,
+        "id": 13,
         "titulo": "Producto 14",
         "descripcion": "Descripción del producto 14",
         "precio": 150,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/npwzwyxu-wblyj0aqsz-0d68fd8a780e392e6b17418039963073-240-0.jpg"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/npwzwyxu-wblyj0aqsz-0d68fd8a780e392e6b17418039963073-240-0.jpg",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 14,
+        "id": 14,
         "titulo": "Producto 15",
         "descripcion": "Descripción del producto 15",
         "precio": 190,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/diseno-sin-titulo-7b99753c4c9f9a856e17474070060845-240-0.png"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/diseno-sin-titulo-7b99753c4c9f9a856e17474070060845-240-0.png",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 15,
+        "id": 15,
         "titulo": "Producto 16",
         "descripcion": "Descripción del producto 16",
         "precio": 290,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/oqfdghyjg6qffrlsdsr-b70cda6a86c3fe570a17474070056989-240-0.jpg"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/oqfdghyjg6qffrlsdsr-b70cda6a86c3fe570a17474070056989-240-0.jpg",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 16,
+        "id": 16,
         "titulo": "Producto 17",
         "descripcion": "Descripción del producto 17",
         "precio": 130,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/portada-de-producto-91ed477ce2a4f732c117531259358808-240-0.png"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/portada-de-producto-91ed477ce2a4f732c117531259358808-240-0.png",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 17,
+        "id": 17,
         "titulo": "Producto 18",
         "descripcion": "Descripción del producto 18",
         "precio": 133,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/ovij3-t_shdf_sppkmg-dc71d37ebba8886aaf17531258854943-240-0.jpg"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/ovij3-t_shdf_sppkmg-dc71d37ebba8886aaf17531258854943-240-0.jpg",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 18,
+        "id": 18,
         "titulo": "Producto 19",
         "descripcion": "Descripción del producto 19",
         "precio": 400,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/portada-de-producto-cd944b59932ad7dfa917531256416845-240-0.png"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/portada-de-producto-cd944b59932ad7dfa917531256416845-240-0.png",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 19,
+        "id": 19,
         "titulo": "Producto 20",
         "descripcion": "Descripción del producto 20",
         "precio": 344,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/oviiegp94ewai_cabte-e5467204b4e259209a17531256413565-240-0.jpg"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/oviiegp94ewai_cabte-e5467204b4e259209a17531256413565-240-0.jpg",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
     {
-    	"id": 20,
+        "id": 20,
         "titulo": "Producto 21",
         "descripcion": "Descripción del producto 21",
         "precio": 221,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/diseno-sin-titulo-87b9eeff2049ea00ed17462367696301-240-0.png"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/diseno-sin-titulo-87b9eeff2049ea00ed17462367696301-240-0.png",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     },
-    {	
-    	"id": 21,
+    {
+        "id": 21,
         "titulo": "Producto 22",
         "descripcion": "Descripción del producto 22",
         "precio": 501,
-        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/omhxqa1_x38pt-g9y9k-65f86febadffba45bb17462367688997-240-0.jpg"
+        "imagen": "https://acdn-us.mitiendanube.com/stores/002/855/768/products/omhxqa1_x38pt-g9y9k-65f86febadffba45bb17462367688997-240-0.jpg",
+        "brand": "Marca Genérica",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
     }
 ]
